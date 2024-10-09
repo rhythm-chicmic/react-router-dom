@@ -24,7 +24,7 @@ const router = createBrowserRouter(
       path='github' 
       element={<Github />}
        />
-
+      <Route path='*' element={<div>Route Not Found </div>} />
     </Route>
   )
 )
